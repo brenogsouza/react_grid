@@ -914,6 +914,39 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@devexpress/dx-core@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-core/-/dx-core-2.5.1.tgz#c65f81e73c4572f1a2907514a9e22c398b955553"
+  integrity sha512-cZ2SIhuG6k6LGugUooH4O9vmHtAUMrvYUH5zxUNWR5KkmqexP9UQFD0wzYZVYynCzH0sFeexkc55CvVPVxThIA==
+
+"@devexpress/dx-grid-core@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-grid-core/-/dx-grid-core-2.5.1.tgz#4727efe85d101be60473ed3d06d3a860ce988fe1"
+  integrity sha512-ELuHRfzYsS6OscQ/60ZwSpgkwkZHcwo4JSjpGOPFknfLVLG6UT94Oz+zBiZ5hLI9SqddcIw9aBm4b9ylApLNmQ==
+
+"@devexpress/dx-react-core@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-react-core/-/dx-react-core-2.5.1.tgz#cda66065696300f1146717fe9244aaa7d2c05f25"
+  integrity sha512-pTkW29LveXIXGva8pLdU5gkRQ5AU5C5TyBsA7Daao9odYdPnPkdkBvkkl/JvrfCnll8tjrITy6+009/PPY6i+w==
+  dependencies:
+    "@devexpress/dx-core" "2.5.1"
+    prop-types "^15.7.2"
+
+"@devexpress/dx-react-grid-material-ui@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-react-grid-material-ui/-/dx-react-grid-material-ui-2.5.1.tgz#1f752444a6aeb16d157176218b056387b778c348"
+  integrity sha512-BxZZmmf1ki4J/tlaYLeCAhl3mPscoGxj1hlFO6BgNLIjpJxK0avcbM49upowXBPph7IMwZB+YDCRWTjEQxGWrw==
+  dependencies:
+    clsx "^1.0.4"
+    prop-types "^15.7.2"
+
+"@devexpress/dx-react-grid@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@devexpress/dx-react-grid/-/dx-react-grid-2.5.1.tgz#f7b4b735a3515b0b4ea28d68ce54eca1b055dad3"
+  integrity sha512-sfkxXhx1kmtn++QAG17oyrXbkMvMThVDpfpomkFwJW7ZXd7zMCdg++qrvdunDx+T6gne6GDxg1ds10aIF/Rf6w==
+  dependencies:
+    "@devexpress/dx-grid-core" "2.5.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2734,6 +2767,11 @@ clone-deep@^4.0.1:
     is-plain-object "^2.0.4"
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
+
+clsx@^1.0.4:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.0.tgz#62937c6adfea771247c34b54d320fb99624f5702"
+  integrity sha512-3avwM37fSK5oP6M5rQ9CNe99lwxhXDOeSWVPAOYF6OazUTgZCMb0yWlJpmdD74REy1gkEaFiub2ULv4fq9GUhA==
 
 co@^4.6.0:
   version "4.6.0"
